@@ -1,0 +1,128 @@
+
+<html>
+<head>
+<title>about me</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="topnav">
+
+  <a href="gallery.html">Gallery</a>
+  <a href="kedahku.html">Kedahku</a>
+  <a href="hobby.html">Hobby</a>
+  <a href="education.html">Education</a>
+  <a href="about me.html">About Me</a>
+  <a href="family.html">My Family</a>
+  <a class="active" href="index.html">Home</a>
+
+<div class="logo">
+        <a href="https://kedah.uitm.edu.my/"> <img src= "C:\Users\user\Desktop\IMD311 Saimen\Logo Uitm.png" width="26px" align="left"></a>
+</div>
+</div>
+<marquee class="blink" scrollamount="18">Welkem To My Website Gaiss</marquee>
+<br>
+<br>
+<center> <p style="padding: 5px; background-color: #black;"> <font size="24px" color="white" face="Arial"> <b><i> Kelasmates </center> </b></i> </font></p>
+<center>
+
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="C:\Users\user\Desktop\IMD311 Saimen\kelasmates 1.jpg" style="width:60%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="C:\Users\user\Desktop\IMD311 Saimen\kelasmates 2.jpg" style="width:60%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="C:\Users\user\Desktop\IMD311 Saimen\kelasmates 3.jpg" style="width:60%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="C:\Users\user\Desktop\IMD311 Saimen\kelasmates 4.jpg" style="width:60%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+</center>
+
+<center> <p style="padding: 5px; background-color: #black;"> <font size="24px" color="white" face="Arial"> <b><i> Bois </center> </b></i> </font></p>
+
+<center>
+<div class="slideshow-container">
+  <div class="mySlides2">
+    <img src="C:\Users\user\Desktop\IMD311 Saimen\bois 1.jpg" style="width:60%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="C:\Users\user\Desktop\IMD311 Saimen\bois 2.jpg" style="width:35%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="C:\Users\user\Desktop\IMD311 Saimen\bois 3.jpg" style="width:35%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="C:\Users\user\Desktop\IMD311 Saimen\bois 4.jpg" style="width:35%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="C:\Users\user\Desktop\IMD311 Saimen\bois 5.jpg" style="width:35%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="C:\Users\user\Desktop\IMD311 Saimen\bois 6.jpg" style="width:60%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+</center>
+
+<script>
+let slideIndex = [1,1];
+let slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+</script>
+
+<center> <p style="padding: 5px; background-color: #black;"> <font size="24px" color="white" face="Arial"> <b><i> Matchday </center> </b></i> </font></p>
+<center>
+        <img src="C:\Users\user\Desktop\IMD311 Saimen\matchday 1.jpg" width="35%" >
+        <img src="C:\Users\user\Desktop\IMD311 Saimen\matchday 2.jpg" width="35%" >
+        <img src="C:\Users\user\Desktop\IMD311 Saimen\matchday 3.jpg" width="35%" >
+        <img src="C:\Users\user\Desktop\IMD311 Saimen\matchday 4.jpg" width="35%" >
+        <img src="C:\Users\user\Desktop\IMD311 Saimen\matchday 8.jpg" width="35%" >
+        <img src="C:\Users\user\Desktop\IMD311 Saimen\matchday 6.jpg" width="40%" >
+        <img src="C:\Users\user\Desktop\IMD311 Saimen\matchday 5.jpg" width="60%" >
+      
+<br>
+<br>
+<center> <p style="padding: 5px; background-color: #black;"> <font size="24px" color="white" face="Arial"> <b><i> My Maivi </center> </b></i> </font></p>
+<center>        
+        <img src="C:\Users\user\Desktop\IMD311 Saimen\my maivi 1.jpg" width="35%" >
+        <img src="C:\Users\user\Desktop\IMD311 Saimen\my maivi 3.jpg" width="35%" >
+        <img src="C:\Users\user\Desktop\IMD311 Saimen\my maivi 2.jpg" width="35%" >
+        <img src="C:\Users\user\Desktop\IMD311 Saimen\my maivi 4.jpg" width="35%" >
+        <img src="C:\Users\user\Desktop\IMD311 Saimen\my maivi 5.jpg" width="60%" >
+</center>
+
+</script>
